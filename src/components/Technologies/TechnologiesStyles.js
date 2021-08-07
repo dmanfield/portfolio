@@ -63,7 +63,7 @@ export const ListContainer = styled.div`
 export const ListTitle = styled.h4`
   font-weight: 700;
   font-size: 28px;
-  line-height: 32px;
+  line-height: 36px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
@@ -83,7 +83,7 @@ export const ListTitle = styled.h4`
 
 export const ListParagraph = styled.p`
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
