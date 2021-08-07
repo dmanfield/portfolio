@@ -32,8 +32,6 @@ const Timeline = () => {
     }
   }
 
-  // snap back to beginning of scroll when window is resized
-  // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -46,7 +44,8 @@ const Timeline = () => {
 <Section id="about">
   <SectionTitle>About Me</SectionTitle>
   <SectionText>
-    ABOUT ME TEXT TEXT TEXT TEXT TEXT
+    I am a navy veteran who transitioned into software development. In June 2021 I graduated from a fullstack bootcamp, and started working as an apprentice over at William Hill / Caesars on a frontend team! 
+    I enjoy working of complex and engaging projects, this way I can continue learning and improving my software developer skills and mentality.
   </SectionText>
   <CarouselContainer ref={carouselRef} onScroll={() => handleScroll()}>
     <>

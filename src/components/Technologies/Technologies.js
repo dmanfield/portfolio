@@ -9,7 +9,7 @@ const Technologies = () =>  (
   <br/>
   <SectionTitle>Technologies</SectionTitle>
   <SectionText>
-    TEXT TEXT TEXT
+    Here are the technologies that I have recently been using!
   </SectionText>
   <List>
     <ListItem>
@@ -17,8 +17,9 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          React.JS
+          React.JS <br />
+          Next.JS <br />
+          Redux <br />
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -27,8 +28,8 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          Node.JS
+          Django <br />
+          PostgreSQL <br />
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -37,8 +38,9 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>UI/UX</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          Figma
+          Figma <br />
+          Antd <br />
+          Material UI <br />
         </ListParagraph>
       </ListContainer>
     </ListItem>
